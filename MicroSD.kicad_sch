@@ -709,7 +709,7 @@
     (property "Value" "Micro_SD_Card" (at 125.095 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Anh_Footprints:MicroSD_Socket" (at 153.67 55.88 0)
+    (property "Footprint" "Anh_Footprints:MicroSD_Socket_9P" (at 153.67 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf" (at 124.46 63.5 0)

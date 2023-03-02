@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.09999999999999999
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -92,14 +92,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "ignore",
         "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -137,38 +137,38 @@
       "teardrop_options": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 10,
           "td_on_pad_in_zone": false,
           "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 10,
+          "td_height_ratio": 0.9,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
+          "td_maxheight": 3.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_round_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 10,
+          "td_height_ratio": 0.9,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
+          "td_maxheight": 3.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_rect_shape",
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 10,
+          "td_height_ratio": 0.9,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
+          "td_maxheight": 3.0,
           "td_maxlen": 1.0,
           "td_target_name": "td_track_end",
           "td_width_to_size_filter_ratio": 0.9
