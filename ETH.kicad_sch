@@ -3601,8 +3601,8 @@
     (pin "6" (uuid 41ef3fca-0e6d-48cd-ad00-b0cfc5911d18))
     (pin "8" (uuid 81222254-35cb-4ba5-b091-bb65147ce1a6))
     (pin "9" (uuid 843d2776-5ca3-46be-a89b-5cf3effce4f6))
-    (pin "SH" (uuid e7e3d513-c2e1-4847-b522-c32487b8b900))
-    (pin "SH" (uuid e7e3d513-c2e1-4847-b522-c32487b8b900))
+    (pin "SH" (uuid e7e3d513-c2e1-4847-b522-c32487b8b901))
+    (pin "SH" (uuid e7e3d513-c2e1-4847-b522-c32487b8b901))
     (instances
       (project "GatewayPlus_V1.4"
         (path "/6b25bb2e-e3f8-49e6-940a-fa3f985570a5/fff79de5-b133-4d25-8979-18516ae81c50"
